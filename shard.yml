@@ -1,0 +1,19 @@
+name: cherry-tree-api
+version: 0.1.0
+
+authors:
+  - Sam Mohr <sam@mohr.codes>
+
+dependencies:
+  graphql:
+    github: graphql-crystal/graphql
+  kemal:
+    github: kemalcr/kemal
+
+targets:
+  cherry-tree-api:
+    main: src/cherry-tree-api.cr
+
+crystal: 0.35.1
+
+license: MIT
