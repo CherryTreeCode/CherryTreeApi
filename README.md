@@ -1,18 +1,36 @@
-# cherry-tree-api
+# Cherry Tree API
 
-TODO: Write a description here
+The backend for Cherry Tree's website, written in [Crystal][crystal].
+
 
 ## Installation
 
-TODO: Write installation instructions here
+You'll need to [install crystal][install crystal] to run the API
+locally. This will install the `crystal` and the `shards` tools,
+after which you can run
+
+```console
+> shards install
+```
+
+to install the dependencies and
+
+```console
+> crystal run src/cherry-tree-api.cr
+```
+
+to run the API locally.
+
 
 ## Usage
 
 TODO: Write usage instructions here
 
+
 ## Development
 
 TODO: Write development instructions here
+
 
 ## Contributing
 
@@ -22,6 +40,11 @@ TODO: Write development instructions here
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
+
 ## Contributors
 
-- [your-name-here](https://github.com/your-github-user) - creator and maintainer
+- [smores56](https://github.com/smores56) - creator and maintainer
+
+
+[crystal]: https://crystal-lang.org/
+[install crystal]: https://crystal-lang.org/install/
